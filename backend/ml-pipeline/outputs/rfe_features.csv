@@ -1,0 +1,12 @@
+Feature,Selected,Ranking
+Ambient_External_Temp_C,True,1
+Actual_Internal_Temp_C,True,1
+Seal_Integrity_Index,True,1
+HVAC_Power_Consumption_Watts,True,1
+Temperature_Deviation_C,True,1
+HVAC_Stress_Index,True,1
+Seal_Loss_Score,True,1
+HVAC_Efficiency,True,1
+Cooling_Load_C,False,2
+Cargo_Type,False,3
+Internal_Set_Point_C,False,4
