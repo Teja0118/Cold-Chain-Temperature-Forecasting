@@ -74,19 +74,20 @@ class RegressionTrainer:
         # Create the model with initial hyperparameters.
         # These values provide a good balance between
         # accuracy and training time.
+        # Tuned Random Forest Model
         model = RandomForestRegressor(
 
-            n_estimators=300,      # Number of trees
+            n_estimators=300,
 
-            max_depth=15,          # Maximum depth of each tree
+            max_depth=10,
 
-            min_samples_split=5,
+            min_samples_split=10,
 
-            min_samples_leaf=2,
+            min_samples_leaf=4,
 
             random_state=42,
 
-            n_jobs=-1              # Use all CPU cores
+            n_jobs=-1
 
         )
 
@@ -142,15 +143,25 @@ class RegressionTrainer:
         """
         print("Training XGBoost Regressor...")
 
+        # Tuned XGBoost Model
         model = XGBRegressor(
-            n_estimators=500,
-            learning_rate=0.05,
-            max_depth=8,
-            subsample=0.8,
-            colsample_bytree=0.8,
+
+            n_estimators=300,
+
+            learning_rate=0.03,
+
+            max_depth=4,
+
+            subsample=0.7,
+
+            colsample_bytree=1.0,
+
             objective="reg:squarederror",
+
             random_state=42,
+
             n_jobs=-1
+
         )
 
         # Train model
@@ -196,16 +207,27 @@ class RegressionTrainer:
         print("Train LightGBM Regressor...")
 
         # Initial LightGBM model
+        # Tuned LightGBM Model
         model = LGBMRegressor(
-            n_estimators=500,
-            learning_rate=0.05,
-            max_depth=8,
+
+            n_estimators=700,
+
+            learning_rate=0.01,
+
+            max_depth=10,
+
             num_leaves=31,
+
             subsample=0.8,
-            colsample_bytree=0.8,
+
+            colsample_bytree=1.0,
+
             random_state=42,
+
             n_jobs=-1,
+
             verbosity=-1
+
         )
 
         # Train the model
