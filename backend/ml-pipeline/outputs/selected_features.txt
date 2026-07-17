@@ -3,4 +3,3 @@ HVAC_Power_Consumption_Watts
 Actual_Internal_Temp_C
 HVAC_Efficiency
 HVAC_Stress_Index
-Seal_Integrity_Index

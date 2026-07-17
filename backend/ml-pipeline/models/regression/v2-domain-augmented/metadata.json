@@ -1,0 +1,23 @@
+{
+  "version": "v2-domain-augmented",
+  "model": "XGBoost",
+  "validation_metrics": {
+    "MAE": 3.9855112784703572,
+    "RMSE": 5.009765763381577,
+    "R2": 0.4231700289766964
+  },
+  "test_metrics": {
+    "MAE": 3.976301410007477,
+    "RMSE": 4.982037273347789,
+    "R2": 0.4266946763815297
+  },
+  "prediction_interval_90_half_width": 8.221066131591797,
+  "dataset_path": "data\\raw\\supply_chain_iot_cold_chain_temp_forecast_80k.csv",
+  "dataset_rows": 80000,
+  "synthetic_data_used": true,
+  "training_augmentation": {
+    "enabled": true,
+    "warning_rows": 4874,
+    "emergency_rows": 5000
+  }
+}
