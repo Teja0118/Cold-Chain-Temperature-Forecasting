@@ -1,0 +1,28 @@
+{
+    "rows": 56000,
+    "columns": 9,
+    "duplicate_rows": 0,
+    "missing_values": {
+        "Container_ID": 0,
+        "Cargo_Type": 0,
+        "Ambient_External_Temp_C": 0,
+        "Internal_Set_Point_C": 0,
+        "Actual_Internal_Temp_C": 0,
+        "HVAC_Power_Consumption_Watts": 0,
+        "Seal_Integrity_Index": 0,
+        "Forecasted_4Hr_Spoilage_Risk_Pct": 0,
+        "Logistics_Action_Recommendation": 0
+    },
+    "data_types": {
+        "Container_ID": "str",
+        "Cargo_Type": "str",
+        "Ambient_External_Temp_C": "float64",
+        "Internal_Set_Point_C": "float64",
+        "Actual_Internal_Temp_C": "float64",
+        "HVAC_Power_Consumption_Watts": "float64",
+        "Seal_Integrity_Index": "float64",
+        "Forecasted_4Hr_Spoilage_Risk_Pct": "float64",
+        "Logistics_Action_Recommendation": "str"
+    },
+    "memory_usage_mb": 13.09
+}

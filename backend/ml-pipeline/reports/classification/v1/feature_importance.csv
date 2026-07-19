@@ -1,0 +1,7 @@
+Feature,Importance
+Forecasted_4Hr_Spoilage_Risk_Pct,0.943051174154636
+Seal_Integrity_Index,0.023506022165189776
+Actual_Internal_Temp_C,0.01560083746114587
+HVAC_Power_Consumption_Watts,0.009541333188065416
+Ambient_External_Temp_C,0.007042415745524678
+Internal_Set_Point_C,0.0012582172854383507

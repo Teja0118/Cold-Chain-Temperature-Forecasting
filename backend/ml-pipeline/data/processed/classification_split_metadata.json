@@ -1,0 +1,48 @@
+{
+    "created_on": "2026-07-18 18:01:41",
+    "random_state": 42,
+    "original_dataset_rows": 80000,
+    "training_rows": 56000,
+    "validation_rows": 12000,
+    "test_rows": 12000,
+    "original_distribution": {
+        "SAFE_Maintain_Course": {
+            "count": 79808,
+            "percentage": 99.76
+        },
+        "WARNING_Request_HVAC_Remote_Reset": {
+            "count": 192,
+            "percentage": 0.24
+        }
+    },
+    "training_distribution": {
+        "SAFE_Maintain_Course": {
+            "count": 55866,
+            "percentage": 99.76
+        },
+        "WARNING_Request_HVAC_Remote_Reset": {
+            "count": 134,
+            "percentage": 0.24
+        }
+    },
+    "validation_distribution": {
+        "SAFE_Maintain_Course": {
+            "count": 11971,
+            "percentage": 99.76
+        },
+        "WARNING_Request_HVAC_Remote_Reset": {
+            "count": 29,
+            "percentage": 0.24
+        }
+    },
+    "test_distribution": {
+        "SAFE_Maintain_Course": {
+            "count": 11971,
+            "percentage": 99.76
+        },
+        "WARNING_Request_HVAC_Remote_Reset": {
+            "count": 29,
+            "percentage": 0.24
+        }
+    }
+}

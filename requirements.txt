@@ -72,6 +72,7 @@ packaging==26.2
 pandas==3.0.3
 pandocfilters==1.5.1
 parso==0.8.7
+patsy==1.0.2
 pillow==12.3.0
 platformdirs==4.10.0
 prometheus_client==0.25.0
@@ -97,12 +98,15 @@ scipy==1.18.0
 seaborn==0.13.2
 Send2Trash==2.1.0
 six==1.17.0
+smogn==0.1.2
 soupsieve==2.8.4
 stack-data==0.6.3
+statsmodels==0.14.6
 terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.5.1
 tornado==6.5.7
+tqdm==4.68.4
 traitlets==5.15.1
 typing_extensions==4.16.0
 tzdata==2026.2

@@ -1,0 +1,32 @@
+{
+    "top_predictors": [
+        "Forecasted_4Hr_Spoilage_Risk_Pct",
+        "Seal_Integrity_Index",
+        "Actual_Internal_Temp_C",
+        "HVAC_Power_Consumption_Watts",
+        "Ambient_External_Temp_C"
+    ],
+    "weak_predictors": [
+        "Seal_Integrity_Index",
+        "Actual_Internal_Temp_C",
+        "HVAC_Power_Consumption_Watts",
+        "Ambient_External_Temp_C",
+        "Internal_Set_Point_C"
+    ],
+    "highest_correlations": {
+        "Ambient_External_Temp_C <-> Ambient_External_Temp_C": 1.0,
+        "Internal_Set_Point_C <-> Actual_Internal_Temp_C": 0.9997974979433422,
+        "HVAC_Power_Consumption_Watts <-> Internal_Set_Point_C": 0.7995305649222072,
+        "Actual_Internal_Temp_C <-> HVAC_Power_Consumption_Watts": 0.7993656162143054,
+        "Ambient_External_Temp_C <-> HVAC_Power_Consumption_Watts": 0.5818273277358369,
+        "Forecasted_4Hr_Spoilage_Risk_Pct <-> Seal_Integrity_Index": 0.2049894952333503,
+        "Forecasted_4Hr_Spoilage_Risk_Pct <-> HVAC_Power_Consumption_Watts": 0.0208185166368431,
+        "Forecasted_4Hr_Spoilage_Risk_Pct <-> Actual_Internal_Temp_C": 0.008354057421659,
+        "Actual_Internal_Temp_C <-> Ambient_External_Temp_C": 0.0040356834662874,
+        "Ambient_External_Temp_C <-> Internal_Set_Point_C": 0.0039949703854982
+    },
+    "recommended_next_step": "Proceed to Feature Engineering.",
+    "possible_target_leakage": [
+        "Forecasted_4Hr_Spoilage_Risk_Pct"
+    ]
+}

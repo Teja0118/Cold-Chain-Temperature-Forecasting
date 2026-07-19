@@ -1,0 +1,16 @@
+Feature,VIF
+Ambient_Load,156.90679111540385
+HVAC_Load_Ratio,150.47719750755172
+Temperature_Deviation,148.19432903489766
+Ambient_External_Temp_C,141.62795693707653
+Cooling_Performance_Score,123.85119290045014
+HVAC_Power_Consumption_Watts,79.05286069858303
+Thermal_Stress_Index,56.27119063440468
+Forecasted_4Hr_Spoilage_Risk_Pct,49.759370540242195
+HVAC_Efficiency,37.20991246145341
+Seal_Integrity_Index,29.967405559860484
+Seal_Loss,15.602118471651076
+Temperature_Risk_Index,15.352570287549804
+Internal_Set_Point_C,11.6434770953962
+Cargo_Type,5.16117002506887
+Actual_Internal_Temp_C,3.934814206784824

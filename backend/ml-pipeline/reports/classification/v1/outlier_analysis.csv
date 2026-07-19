@@ -1,0 +1,7 @@
+Feature,Q1,Q3,IQR,Outlier_Count,Outlier_Percentage
+Ambient_External_Temp_C,26.3,38.8,12.499999999999996,0,0.0
+Internal_Set_Point_C,-18.0,4.0,22.0,0,0.0
+Actual_Internal_Temp_C,-17.36,4.36,21.72,0,0.0
+HVAC_Power_Consumption_Watts,1322.0,2230.0,908.0,0,0.0
+Seal_Integrity_Index,0.857,0.968,0.11099999999999999,1980,3.54
+Forecasted_4Hr_Spoilage_Risk_Pct,16.8,25.6,8.8,425,0.76
