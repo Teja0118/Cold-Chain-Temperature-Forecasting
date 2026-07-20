@@ -6,7 +6,7 @@ Supports both Regression and Classification workflows.
 import argparse
 
 from src.training.regression_pipeline import RegressionTrainingPipeline
-from src.training.classification_pipeline import ClassificationPipeline
+from src.training.classification_safe_pipeline import ClassificationPipeline
 
 
 def main():

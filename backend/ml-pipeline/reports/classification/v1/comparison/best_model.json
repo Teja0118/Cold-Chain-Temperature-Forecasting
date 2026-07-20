@@ -1,0 +1,8 @@
+{
+    "Model": "DecisionTree",
+    "Category": "Baseline",
+    "Accuracy": 0.9991666666666666,
+    "Precision": 1.0,
+    "Recall": 0.9991666666666666,
+    "F1_Score": 0.999496527777778
+}

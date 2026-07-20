@@ -26,6 +26,12 @@ class ClassificationSyntheticDataGenerator:
 
     EMERGENCY_CLASS = "EMERGENCY"
 
+    SAFE_TARGET_COUNT = 30000
+
+    WARNING_TARGET_COUNT = 7500
+
+    EMERGENCY_TARGET_COUNT = 7500
+
     def __init__(
         self,
         version: str = "v1",
@@ -86,6 +92,18 @@ class ClassificationSyntheticDataGenerator:
             self.df[self.TARGET_COLUMN] ==
             self.SAFE_CLASS
         ].copy()
+
+        if len(self.safe_df) < self.SAFE_TARGET_COUNT:
+
+            raise ValueError(
+                f"Need at least {self.SAFE_TARGET_COUNT:,} SAFE rows."
+            )
+
+        # Keep a representative real SAFE subset at the requested size.
+        self.safe_df = self.safe_df.sample(
+            n=self.SAFE_TARGET_COUNT,
+            random_state=self.random_state
+        ).copy()
 
         self.warning_df = self.df[
             self.df[self.TARGET_COLUMN] ==
@@ -523,7 +541,7 @@ class ClassificationSyntheticDataGenerator:
 
         warning_needed = (
 
-            len(self.safe_df)
+            self.WARNING_TARGET_COUNT
 
             -
 
@@ -531,7 +549,13 @@ class ClassificationSyntheticDataGenerator:
 
         )
 
-        emergency_needed = len(self.safe_df)
+        if warning_needed < 0:
+
+            raise ValueError(
+                "Real WARNING rows exceed the configured target count."
+            )
+
+        emergency_needed = self.EMERGENCY_TARGET_COUNT
 
         self.generate_warning_samples(
             warning_needed

@@ -1,0 +1,7 @@
+{
+    "total_models": 6,
+    "baseline_models": 4,
+    "tuned_models": 2,
+    "best_model": "DecisionTree",
+    "best_f1_score": 0.999496527777778
+}

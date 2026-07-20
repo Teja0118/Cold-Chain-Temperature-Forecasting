@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1_Score,Category,Best_Params,Rank
+DecisionTree,0.9991666666666666,1.0,0.9991666666666666,0.999496527777778,Baseline,,1
+RandomForest,0.999,1.0,0.999,0.9993695652173912,Baseline,,2
+RandomForest,0.9988333333333334,1.0,0.9988333333333334,0.9992310606060608,Tuned,"{'n_estimators': 300, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': 30}",3
+ExtraTrees,0.9983333333333332,0.998464355523094,0.9983333333333332,0.9982715624647236,Baseline,,4
+ExtraTrees,0.9983333333333332,0.998464355523094,0.9983333333333332,0.9982715624647236,Tuned,"{'n_estimators': 300, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}",5
+LogisticRegression,0.99275,0.9979357968881414,0.99275,0.9948908898435268,Baseline,,6

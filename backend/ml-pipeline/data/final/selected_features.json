@@ -1,9 +1,7 @@
 {
-    "selected_feature_count": 12,
+    "selected_feature_count": 10,
     "selected_features": [
-        "Actual_Internal_Temp_C",
         "Ambient_External_Temp_C",
-        "Ambient_Load",
         "Cooling_Performance_Score",
         "Forecasted_4Hr_Spoilage_Risk_Pct",
         "HVAC_Efficiency",

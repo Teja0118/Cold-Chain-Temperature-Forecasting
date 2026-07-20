@@ -1,0 +1,9 @@
+{
+    "recommended_model": "DecisionTree",
+    "model_category": "Baseline",
+    "reason": "Highest weighted F1 Score.",
+    "accuracy": 0.9991666666666666,
+    "precision": 1.0,
+    "recall": 0.9991666666666666,
+    "f1_score": 0.999496527777778
+}
