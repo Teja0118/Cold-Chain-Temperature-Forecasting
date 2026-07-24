@@ -1,0 +1,22 @@
+{
+  "version": "v4",
+  "best_model": "LightGBM",
+  "training_distribution": {
+    "SAFE_Maintain_Course": 30000,
+    "EMERGENCY": 7500,
+    "WARNING_Request_HVAC_Remote_Reset": 7500
+  },
+  "synthetic_training_rows": 14866,
+  "risk_target_excluded": true,
+  "predicted_risk_feature_used": true,
+  "warning_threshold": 0.13,
+  "test_metrics": {
+    "split": "test",
+    "macro_f1_observed_classes": 0.5593102323757144,
+    "warning_recall": 0.2413793103448276,
+    "samples": 12000,
+    "warning_threshold": 0.13,
+    "real_emergency_samples": 0
+  },
+  "emergency_evaluation_note": "No real Emergency holdout records are available."
+}

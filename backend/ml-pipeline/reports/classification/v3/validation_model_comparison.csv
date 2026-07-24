@@ -1,0 +1,4 @@
+Model,split,macro_f1_observed_classes,warning_recall,samples,warning_threshold,real_emergency_samples
+RandomForest,validation_RandomForest,0.5873414192109299,0.27586206896551724,12000,0.37,0
+ExtraTrees,validation_ExtraTrees,0.5809170702439097,0.20689655172413793,12000,0.41000000000000003,0
+LightGBM,validation_LightGBM,0.5691479311743249,0.1724137931034483,12000,0.42000000000000004,0
